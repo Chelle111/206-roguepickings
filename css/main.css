@@ -105,19 +105,11 @@ header nav ul li a{
 	flex-flow: column;
 }
 
-.main-image {
-	height: auto;
-
-}
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-	height: auto;
-	float: left;
-}
 .main-title h3 {
 	padding: 5px 0;
 	color: #77a466;
@@ -131,9 +123,6 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-/*	width: 33%;
-	height: auto;
-	float: left;*/
 	border-top: 1px solid #eee;
 }
 
@@ -173,7 +162,6 @@ header nav ul li a{
 
 /*The widths are in a percentage!*/
 footer {
-	height: 50px;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	clear: both;
@@ -208,15 +196,17 @@ header h1{
 .section-one,
 .section-two,
 .section-three {
-
 	width: 33%;
-	height: 330px;
 	border: none;
 }
 
-.section-one,
+.section-one {
+	padding-right: 10px;
+}
+
 .section-two {
 	border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
 }
 .section-one,
 .section-three {
@@ -224,11 +214,10 @@ header h1{
 	margin: none;
 }
 
-
 }
 
 
-@media (min-width: 1281px) {
+@media (min-width: 1200px) {
 
 body {
 	margin: 0;
